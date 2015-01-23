@@ -59,8 +59,9 @@ cacheSolve <- function(x, ...)
 }
 
 
-## Sample run:
-x = rbind(c(1, -1/4), c(-1/4, 1))
-m = makeCacheMatrix(x)
-m$getmatrix()
-cacheSolve(m)
+##  Execution commands:
+##  x = rbind(c(1, -1/4), c(-1/4, 1))
+##  m = makeCacheMatrix(x)
+##  m$getmatrix()
+##  cacheSolve(m)
+##  cacheSolve(m)
